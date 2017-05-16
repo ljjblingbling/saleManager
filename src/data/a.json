@@ -1,0 +1,110 @@
+{
+    "northGroupData": [
+        {
+            "groupId": 1,
+            "groupName": "北方区",
+            "saleId": 39,
+            "saleName": "绍林"
+        },
+        {
+            "groupId": 4,
+            "groupName": "销售一组",
+            "saleId": 107,
+            "saleName": "王华"
+        },
+        {
+            "groupId": 5,
+            "groupName": "销售二组",
+            "saleId": 140,
+            "saleName": "刘星"
+        },
+        {
+            "groupId": 6,
+            "groupName": "销售三组",
+            "saleId": 135,
+            "saleName": "闫海涛"
+        },
+        {
+            "groupId": 7,
+            "groupName": "销售四组",
+            "saleId": 79,
+            "saleName": "杨超"
+        },
+        {
+            "groupId": 13,
+            "groupName": "陕西",
+            "saleId": 65,
+            "saleName": "崔何伟"
+        },
+        {
+            "groupId": 14,
+            "groupName": "神舟爱婴",
+            "saleId": 412,
+            "saleName": "李萌爽"
+        },
+        {
+            "groupId": 16,
+            "groupName": "销售五组",
+            "saleId": 190,
+            "saleName": "张鹤"
+        },
+        {
+            "groupId": 17,
+            "groupName": "河南",
+            "saleId": 123,
+            "saleName": "王建伟"
+        }
+    ],
+    "southData": null,
+    "northData": null,
+    "southGroupData": [
+        {
+            "groupId": 2,
+            "groupName": "南方区",
+            "saleId": 94,
+            "saleName": "高辉"
+        },
+        {
+            "groupId": 8,
+            "groupName": "业务一组",
+            "saleId": 97,
+            "saleName": "刘威"
+        },
+        {
+            "groupId": 9,
+            "groupName": "业务三组",
+            "saleId": 125,
+            "saleName": "胡寿溢"
+        },
+        {
+            "groupId": 10,
+            "groupName": "业务二组",
+            "saleId": 96,
+            "saleName": "孙黎辉"
+        },
+        {
+            "groupId": 11,
+            "groupName": "业务四组",
+            "saleId": 106,
+            "saleName": "罗商"
+        },
+        {
+            "groupId": 12,
+            "groupName": "四川",
+            "saleId": 138,
+            "saleName": "石太白"
+        },
+        {
+            "groupId": 15,
+            "groupName": "广州",
+            "saleId": 155,
+            "saleName": "蔡崇赞"
+        },
+        {
+            "groupId": 18,
+            "groupName": "神州爱婴南方",
+            "saleId": 485,
+            "saleName": "神州爱婴南方"
+        }
+    ]
+}

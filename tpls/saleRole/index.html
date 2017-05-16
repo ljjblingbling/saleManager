@@ -1,0 +1,117 @@
+<div class="headerTop">
+  <span>设备销售管理系统</span>
+  <div class="logonMessage" style="float:right"><span class="nowTime">当前时间：2017-03-14 11:10 AM</span>欢迎您:<span>设备助理</span><span class="loginOut">退出</span></div>
+</div>
+  <div class="layui-side-scroll">
+    <ul class="layui-nav layui-nav-tree site-demo-nav" style="display:none">
+      <li class="layui-nav-item layui-nav-itemed">
+        <a href="javascript:;" class="navSame"><i class="fa fa-check-square"></i>合同管理(助理)<span class="layui-nav-more"></span></a>
+        <dl class="layui-nav-child">
+          <dd>
+            <a ui-sref=".equipAdd">添加设备</a>
+          </dd>
+        </dl>
+      </li>
+      <li class="layui-nav-item">
+        <a href="javascript:;" class="navSame"><i class="fa fa-mail-reply"></i>销售单管理(助理)<span class="layui-nav-more"></span></a>
+        <dl class="layui-nav-child">
+          <dd class="">
+            <a ui-sref=".equipSaleManageAll">销售单管理</a>
+          </dd>
+        </dl>
+      </li>
+      <li class="layui-nav-item">
+        <a href="javascript:;" class="navSame"><i class="fa fa-circle-o-notch"></i>销售单退单管理(助理)<span class="layui-nav-more"></span></a>
+        <dl class="layui-nav-child">
+          <dd class="">
+            <a ui-sref=".equipReturnAll">销售单退单管理</a>
+          </dd>
+        </dl>
+      </li>
+      <li class="layui-nav-item">
+        <a href="javascript:;" class="navSame"><i class="fa fa-mail-forward"></i>进货单管理(助理)<span class="layui-nav-more"></span></a>
+        <dl class="layui-nav-child">
+          <dd class="">
+            <a ui-sref=".equipPurchaseAll">进货单管理</a>
+          </dd>
+        </dl>
+      </li>
+    </ul>
+    <!--财务人员-->
+    <ul class="layui-nav layui-nav-tree site-demo-nav">
+      <li class="layui-nav-item layui-nav-itemed">
+        <a href="javascript:;" class="navSame"><i class="fa fa-mail-reply"></i>销售单管理(财务)<span class="layui-nav-more"></span></a>
+        <dl class="layui-nav-child">
+          <dd>
+            <a href="#/index/equipSaleManageAllCw" ui-sref=".equipSaleManageAllCw">销售单管理</a>
+          </dd>
+        </dl>
+      </li>
+      <li class="layui-nav-item">
+        <a href="javascript:;" class="navSame"><i class="fa fa-circle-o-notch"></i>销售单退单管理(财务)<span class="layui-nav-more"></span></a>
+        <dl class="layui-nav-child">
+          <dd>
+            <a href="#/index/equipReturnAllCw" ui-sref=".equipReturnAllCw">销售单退单管理</a>
+          </dd>
+        </dl>
+      </li>
+      <li class="layui-nav-item">
+        <a href="javascript:;" class="navSame"><i class="fa fa-mail-forward"></i>进货单管理(财务)<span class="layui-nav-more"></span></a>
+        <dl class="layui-nav-child">
+          <dd class="">
+            <a href="#/index/equipPurchaseAllCw" ui-sref=".equipPurchaseAllCw">进货单管理</a>
+          </dd>
+        </dl>
+      </li>
+      <li class="layui-nav-item">
+        <a href="javascript:;" class="navSame"><i class="fa fa-retweet"></i>进货单退单管理(财务)<span class="layui-nav-more"></span></a>
+        <dl class="layui-nav-child">
+          <dd class="">
+            <a href="#/index/equipJhReturnAllCw" ui-sref=".equipJhReturnAllCw">进货单退单管理</a>
+          </dd>
+        </dl>
+      </li>
+      <li class="layui-nav-item">
+        <a href="javascript:;" class="navSame"><i class="fa fa-building"></i>设备结算单管理(财务)<span class="layui-nav-more"></span></a>
+        <dl class="layui-nav-child">
+          <dd class="">
+            <a href="#/index/equipSettleManageCw" ui-sref=".equipSettleManageCw">设备结算单管理</a>
+          </dd>
+        </dl>
+      </li>
+      <li class="layui-nav-item">
+        <a href="javascript:;" class="navSame"><i class="fa fa-window-restore"></i>设备管理(财务)<span class="layui-nav-more"></span></a>
+        <dl class="layui-nav-child">
+          <dd class="">
+            <a href="#/index/equipListCw" ui-sref=".equipListCw">设备列表</a>
+          </dd>
+          <dd class="">
+            <a href="#/index/equipPackageCw" ui-sref=".equipPackageCw">设备套餐</a>
+          </dd>
+          <dd class="">
+            <a href="#/index/equipClassCw" ui-sref=".equipClassCw">设备分类</a>
+          </dd>
+        </dl>
+      </li>
+    </ul>
+    <!--供应商-->
+    <ul class="layui-nav layui-nav-tree site-demo-nav" style="display:none">
+       <li class="layui-nav-item">
+        <a href="javascript:;" class="navSame"><i class="fa fa-mail-forward"></i>进货单管理(供应商)<span class="layui-nav-more"></span></a>
+        <dl class="layui-nav-child">
+          <dd class="">
+            <a href="#/index/equipPurchaseAllPro">进货单管理</a>
+          </dd>
+        </dl>
+      </li>
+      <li class="layui-nav-item">
+        <a href="javascript:;" class="navSame"><i class="fa fa-retweet"></i>进货单退单管理(供应商)<span class="layui-nav-more"></span></a>
+        <dl class="layui-nav-child">
+          <dd class="">
+            <a href="#/index/equipJhReturnAllPro">设备进货单退单管理</a>
+          </dd>
+        </dl>
+      </li>
+    </ul>
+  </div>
+<div ui-view=""></div>

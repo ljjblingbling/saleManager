@@ -1,0 +1,112 @@
+body{overflow: hidden;}
+.headerTop{
+	background:#23262E;
+    padding-left:20px;
+    color:#c2c2c2;;
+    font-size: 22px;
+    height:59px;
+    line-height:59px;
+    overflow: hidden;
+}
+.menuLeft{
+	width:200px;
+	position: absolute;
+	height:91%;
+	left:0;
+	top:63px;
+	border:1px solid #ddd;
+	border-bottom:none;
+}
+.panel-body:last-child{
+	border-bottom: #ddd
+}
+.panel-default {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.panel-title a{
+	display:block;
+}
+.contentRight{
+	margin-left: 220px;
+	height:900px;
+}
+.cover {
+    width: 100%;
+    height: 99%;
+    background: #0b5498;
+    position: absolute;
+}
+.login{
+	width:300px;
+	height:200px;
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-left: -150px;
+	margin-top: -150px;
+}
+.login ul li{
+	margin-top: 20px
+}
+.login ul li span{
+	display: inline-block;
+    width: 68px;
+    text-align: right;
+    margin-right: 10px;
+    color:#fff;
+}
+.loginBtn{
+	display:block;
+	width:80px;
+	height:40px;
+	line-height: 40px;
+	background:#5695eb;
+	color:#fff;
+	text-align: center;
+	margin:0 auto;
+}
+.errmsg{
+	text-align: center;
+	margin:10px 0;
+}
+.NorthTable{
+	width:1000px;
+	margin:20px 60px;
+}
+.NorthTable table tr,.NorthTable table td{
+	text-align: center;
+	height:40px;
+	border:1px solid #ccc
+}
+.layui-side-scroll{
+    position: fixed;
+    top: 59px;
+    bottom: 0;
+    z-index: 999;
+    overflow-x: hidden;
+    background:#393D49
+}
+.layui-nav-tree{
+	width:220px !important;
+}
+.fa{margin-right: 10px;}
+.layui-nav-tree .layui-nav-child a{
+	padding-left: 40px !important
+}
+.logonMessage{
+	font-size:14px;
+	margin-right: 60px;
+	color: #c2c2c2;
+}
+.loginOut{
+	display: inline-block;
+	margin:0 30px;
+	cursor: pointer;
+}
+.nowTime{
+	display: inline-block;
+	margin-right:30px;
+	color: #c2c2c2;
+}
